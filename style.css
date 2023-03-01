@@ -21,15 +21,10 @@ body{
 .container img{
     width: 120px;
     height: 580px;
-    border-radius: 20px;
+    border-radius: 50px;
     transition: var(--main-transition);
  box-shadow: 0px 0px 20px -8px black;
 }
-.container img:hover{
-    opacity: 1; 
-    filter: blur(0);
-}
 img.active{
-    filter: blur(0);
     width: 600px;
 }
